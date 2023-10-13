@@ -1,33 +1,41 @@
 ﻿using HotelProject.BusinessLayer.Abstract;
+using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.EntityLayer.Concrete;
 
 namespace HotelProject.BusinessLayer.Concrete
 {
     public class RoomManager : IRoomService
     {
+        private readonly IRoomDal _roomDal;
+
+        public RoomManager(IRoomDal roomDal)
+        {
+            _roomDal = roomDal;
+        }
+
         public void TDelete(Room t)
         {
-            throw new NotImplementedException();
+            _roomDal.Delete(t);
         }
 
         public Room TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _roomDal.GetByID(id);
         }
 
         public List<Room> TGetList()
         {
-            throw new NotImplementedException();
+            return _roomDal.GetList();
         }
 
         public void TInsert(Room t)
         {
-            throw new NotImplementedException();
+            _roomDal.Insert(t);
         }
 
         public void TUpdate(Room t)
         {
-            throw new NotImplementedException();
+            _roomDal.Update(t);
         }
     }
 }

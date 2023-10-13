@@ -1,33 +1,41 @@
 ﻿using HotelProject.BusinessLayer.Abstract;
+using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.EntityLayer.Concrete;
 
 namespace HotelProject.BusinessLayer.Concrete
 {
     public class TestimonialManager : ITestimonialService
     {
+        private readonly ITestimonialDal _testimonialDal;
+
+        public TestimonialManager(ITestimonialDal testimonialDal)
+        {
+            _testimonialDal = testimonialDal;
+        }
+
         public void TDelete(Testimonial t)
         {
-            throw new NotImplementedException();
+            _testimonialDal.Delete(t);
         }
 
         public Testimonial TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _testimonialDal.GetByID(id);
         }
 
         public List<Testimonial> TGetList()
         {
-            throw new NotImplementedException();
+            return _testimonialDal.GetList();
         }
 
         public void TInsert(Testimonial t)
         {
-            throw new NotImplementedException();
+            _testimonialDal.Insert(t);
         }
 
         public void TUpdate(Testimonial t)
         {
-            throw new NotImplementedException();
+            _testimonialDal.Update(t);
         }
     }
 }
