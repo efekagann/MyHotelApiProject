@@ -1,11 +1,50 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using HotelProject.WebUI.Models.Staff;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace HotelProject.WebUI.Controllers
 {
     public class StaffController : Controller
     {
-        public IActionResult Index()
+        private readonly IHttpClientFactory _httpClient;
+
+        public StaffController(IHttpClientFactory httpClient)
         {
+            _httpClient = httpClient;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var client = _httpClient.CreateClient();
+            var responseMessage = await client.GetAsync("http://localhost:5073/api/Staff");
+
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<StaffViewModel>>(jsonData);
+                return View(values);
+            }
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult AddStaff()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddStaff(AddStaffViewModel model)
+        {
+            var client = _httpClient.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(model);
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("http://localhost:5073/api/Staff", content);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
             return View();
         }
     }

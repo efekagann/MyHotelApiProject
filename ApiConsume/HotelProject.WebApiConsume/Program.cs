@@ -29,6 +29,14 @@ builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
 builder.Services.AddScoped<IServiceService, ServiceManager>();
 builder.Services.AddScoped<ISubscribeService, SubscribeManager>();
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("OtelApiCors", opts =>
+    {
+        opts.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
+
 
 var app = builder.Build();
 
@@ -40,7 +48,7 @@ if (app.Environment.IsDevelopment())
 }
 
 
-
+app.UseCors("OtelApiCors");
 app.UseAuthorization();
 
 app.MapControllers();
