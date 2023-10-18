@@ -166,3 +166,5 @@ C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApi
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\obj\Debug\net7.0\HotelProject.WebApiConsume.pdb
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\obj\Debug\net7.0\HotelProject.WebApiConsume.genruntimeconfig.cache
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\obj\Debug\net7.0\ref\HotelProject.WebApiConsume.dll
+C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
