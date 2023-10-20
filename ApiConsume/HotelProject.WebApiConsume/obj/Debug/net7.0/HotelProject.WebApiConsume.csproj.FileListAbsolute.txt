@@ -89,9 +89,14 @@ C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApi
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\HotelProject.WebApiConsume.runtimeconfig.json
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\HotelProject.WebApiConsume.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\HotelProject.WebApiConsume.pdb
+C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Humanizer.dll
+C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
@@ -101,6 +106,9 @@ C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApi
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -166,5 +174,3 @@ C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApi
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\obj\Debug\net7.0\HotelProject.WebApiConsume.pdb
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\obj\Debug\net7.0\HotelProject.WebApiConsume.genruntimeconfig.cache
 C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\obj\Debug\net7.0\ref\HotelProject.WebApiConsume.dll
-C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\efeka\Documents\GitHub\MyHotelApiProject\ApiConsume\HotelProject.WebApiConsume\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
